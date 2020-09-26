@@ -6,6 +6,7 @@ from discord.ext import commands
 TOKEN = "NzU5MzcyNzkxNjIyNzk1Mjk0.X28jBQ.r1cArCiQRLJMmb2xdCU6Arn4_MM"
 bot = commands.Bot(command_prefix="!")
 
+
 #Utilities
 def check_if_role(roles:list, user):
     for r in roles:
