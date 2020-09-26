@@ -1,4 +1,4 @@
-import os, discord
+import discord
 from discord.utils import get, find
 from discord.ext import commands
 
