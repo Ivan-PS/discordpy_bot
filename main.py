@@ -2,6 +2,7 @@ import os, discord
 from discord.utils import get, find
 from discord.ext import commands
 
+
 TOKEN = "NzU5MzcyNzkxNjIyNzk1Mjk0.X28jBQ.r1cArCiQRLJMmb2xdCU6Arn4_MM"
 bot = commands.Bot(command_prefix="!")
 
