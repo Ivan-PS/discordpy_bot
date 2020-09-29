@@ -2,7 +2,7 @@ import discord, os
 from discord.utils import get, find
 from discord.ext import commands
 
-
+TOKEN = os.environ.get("BOT_TOKEN") or "NzU5MzcyNzkxNjIyNzk1Mjk0.X28jBQ.r1cArCiQRLJMmb2xdCU6Arn4_MM"
 bot = commands.Bot(command_prefix="!")
 
 #Utilities
@@ -46,5 +46,5 @@ async def test_error(ctx, error):
     await ctx.send("<@{0.author.id}> ets puto retrassat o no saps que s'han de posar arguments als commandos?".format(ctx))
 
 
-bot.run(os.environ.get("BOT_TOKEN"))
+bot.run(TOKEN)
 
