@@ -1,2 +1,2 @@
-worker: python main.py
-worker: python music.py
+commands: python main.py
+music: python music.py
