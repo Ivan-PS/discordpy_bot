@@ -1,8 +1,9 @@
 import discord, os
 from discord.utils import get, find
 from discord.ext import commands
+import settings
 
-TOKEN = os.environ.get("BOT_TOKEN") or "NzU5MzcyNzkxNjIyNzk1Mjk0.X28jBQ.r1cArCiQRLJMmb2xdCU6Arn4_MM"
+TOKEN = settings.api_key
 bot = commands.Bot(command_prefix="!")
 
 #Utilities
